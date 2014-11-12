@@ -13,7 +13,7 @@ int main(int argc,char *argv[]){
 	unsigned int sec;
 
 	sscanf(argv[1],"%lf",&n);
-	sec = (int)(n*60);
+	sec = (unsigned int)(n*60);
 
 	if(sec <= 0){
 
