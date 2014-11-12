@@ -10,7 +10,7 @@ int main(int argc,char *argv[]){
 	}
 		
 	double n;
-	int sec;
+	unsigned int sec;
 
 	sscanf(argv[1],"%lf",&n);
 	sec = (int)(n*60);
