@@ -24,7 +24,6 @@ int main(int argc,char *argv[]){
 
 	sleep(sec);
 
-	
 	printf("時間です\a\n");
 
 	return 0;
