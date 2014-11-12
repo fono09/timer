@@ -15,7 +15,7 @@ int main(int argc,char *argv[]){
 	sscanf(argv[1],"%lf",&n);
 	sec = (unsigned int)(n*60);
 
-	if(sec <= 0){
+	if(sec == 0){
 
 		printf("短すぎます\n");
 		return 0;
