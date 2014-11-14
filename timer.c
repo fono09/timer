@@ -3,9 +3,10 @@
 
 int main(int argc,char *argv[]){
 
-	if(argc == 0){
+	if(argc == 1){
 
-		printf("引数ください\n");
+		printf("Usage: timer MINUTE\n");
+		return 1;
 
 	}
 		
@@ -17,14 +18,14 @@ int main(int argc,char *argv[]){
 
 	if(sec == 0){
 
-		printf("短すぎます\n");
-		return 0;
+		printf("It's too short to count.\n");
+		return 1;
 
 	}
 
 	sleep(sec);
 
-	printf("時間です\a\n");
+	printf("It's timer!!\a\n");
 
 	return 0;
 
