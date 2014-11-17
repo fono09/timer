@@ -1,6 +1,6 @@
-CC = gcc
-DEFS = -DHAVE_CONFIG_H
-LIBS = 
+CC = @CC@
+DEFS = @DEFS@
+LIBS = @LIBS@
 
 SRCS = timer.c
 OBJS = $(SRCS:.c=.o)
