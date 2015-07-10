@@ -1,3 +1,7 @@
+#
+# Makefile for timer
+# 
+
 CC = gcc
 DEFS = -DHAVE_CONFIG_H
 LIBS = 
@@ -17,5 +21,4 @@ $(PROG): $(OBJS)
 clean:
 	rm -f $(OBJS)
 
-configure.h.in: configure.in
-	autoheader
+
