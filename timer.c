@@ -5,7 +5,7 @@ int main(int argc,char *argv[]){
 
 	if(argc == 1){
 
-		printf("Usage: timer MINUTE\n");
+		printf("Usage: timer [MINUTE]\n");
 		return 1;
 
 	}
@@ -25,7 +25,7 @@ int main(int argc,char *argv[]){
 
 	sleep(sec);
 
-	printf("It's timer!!\a\n");
+	printf("Time's up!!!!!!\a\n");
 
 	return 0;
 
